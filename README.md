@@ -28,21 +28,21 @@ This project implements a **baseline JPEG compression algorithm** completely fro
 * Place an RGB image (e.g., mandril_color.jpg) in the working directory.
 * Update the image_path variable in the notebook.
 * Run all cells to:
-     Convert to YCbCr
-     Subsample chroma
-     Apply DCT & Quantization
-     Encode using Zig-Zag, RLE, and Huffman coding
+     * Convert to YCbCr
+     * Subsample chroma
+     * Apply DCT & Quantization
+     * Encode using Zig-Zag, RLE, and Huffman coding
 * Observe:
-     Visualizations of each stage
-     Compression statistics (bit count & ratio)
+     * Visualizations of each stage
+     * Compression statistics (bit count & ratio)
 
 ## Example Results
-Stage                      Key Output
-YCbCr	               Separate Y, Cb, Cr channel images
-Subsampling	         4:2:0 Cb & Cr reduced resolution
-DCT	                 Frequency coefficients per 8×8 block
-Quantization	       Reduced precision per JPEG tables
-Encoding	           Binary Huffman bitstream + ~11.6:1 ratio
+* Stage                      Key Output
+* YCbCr	               Separate Y, Cb, Cr channel images
+* Subsampling	         4:2:0 Cb & Cr reduced resolution
+* DCT	                 Frequency coefficients per 8×8 block
+* Quantization	       Reduced precision per JPEG tables
+* Encoding	           Binary Huffman bitstream + ~11.6:1 ratio
 
 ## Background
 
