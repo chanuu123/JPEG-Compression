@@ -22,23 +22,7 @@ This project implements a **baseline JPEG compression algorithm** completely fro
 * ├── 21EC39009_report_jpeg.comp.pdf # Detailed project report & algorithm explanation
 * └── README.md # (this file)
 
-
 ---
-
-## Installation
-
-1. Clone or download this repository.
-2. Install Python 3.8+ and the following libraries:
-
-```bash
-pip install numpy opencv-python matplotlib
-
-## Launch Jupyter Notebook
-
-jupyter notebook mini_project_21EC39009.ipynb
-
-----------------
-
 ## Usage
 
 * Place an RGB image (e.g., mandril_color.jpg) in the working directory.
@@ -76,3 +60,18 @@ Encoding	           Binary Huffman bitstream + ~11.6:1 ratio
 * Compressed data size: ~45,943 bits
 * Compression Ratio: ~11.6 : 1
   (Note: Values vary slightly with input image.)
+
+---
+
+## 🔧 Installation
+
+1. Clone or download this repository.
+2. Install Python 3.8+ and the following libraries:
+
+```bash
+pip install numpy opencv-python matplotlib
+
+## Launch Jupyter Notebook:
+
+jupyter notebook mini_project_21EC39009.ipynb
+
