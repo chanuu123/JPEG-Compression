@@ -37,12 +37,12 @@ This project implements a **baseline JPEG compression algorithm** completely fro
      * Compression statistics (bit count & ratio)
 
 ## Example Results
-* Stage                      Key Output
-* YCbCr	               Separate Y, Cb, Cr channel images
-* Subsampling	         4:2:0 Cb & Cr reduced resolution
-* DCT	                 Frequency coefficients per 8×8 block
-* Quantization	       Reduced precision per JPEG tables
-* Encoding	           Binary Huffman bitstream + ~11.6:1 ratio
+* Stage            |          Key Output
+* YCbCr	           |   Separate Y, Cb, Cr channel images
+* Subsampling	   |     4:2:0 Cb & Cr reduced resolution
+* DCT	           |     Frequency coefficients per 8×8 block
+* Quantization	   |   Reduced precision per JPEG tables
+* Encoding	       |   Binary Huffman bitstream + ~11.6:1 ratio
 
 ## Background
 
