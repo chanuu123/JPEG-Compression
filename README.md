@@ -18,14 +18,14 @@ This project implements a **baseline JPEG compression algorithm** completely fro
 
 ## Project Structure
 
-├── mini_project_21EC39009.ipynb # Jupyter Notebook implementing the full pipeline
-├── 21EC39009_report_jpeg.comp.pdf # Detailed project report & algorithm explanation
-└── README.md # (this file)
+* ├── mini_project_21EC39009.ipynb # Jupyter Notebook implementing the full pipeline
+* ├── 21EC39009_report_jpeg.comp.pdf # Detailed project report & algorithm explanation
+* └── README.md # (this file)
 
 
 ---
 
-## 🔧 Installation
+## Installation
 
 1. Clone or download this repository.
 2. Install Python 3.8+ and the following libraries:
@@ -36,6 +36,8 @@ pip install numpy opencv-python matplotlib
 ## Launch Jupyter Notebook
 
 jupyter notebook mini_project_21EC39009.ipynb
+
+----------------
 
 ## Usage
 
